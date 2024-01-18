@@ -1,0 +1,14 @@
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: '{{componentPrefix}}-{{dashCaseName}}',
+  templateUrl: './{{dashCaseName}}.component.html',
+  styleUrls: ['./{{dashCaseName}}.component.scss'],
+  standalone: true,
+  imports: [CommonModule]
+})
+export default class {{upperCamelCaseName}}Component implements OnInit {
+    constructor(){}
+    ngOnInit(): void {}
+}
