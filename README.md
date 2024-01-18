@@ -1,1 +1,0 @@
-# ng-files-generator-templates
