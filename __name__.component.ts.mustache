@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,7 +8,8 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule]
 })
-export default class {{upperCamelCaseName}}Component implements OnInit {
+export default class {{upperCamelCaseName}}Component implements OnInit, OnDestroy {
     constructor(){}
     ngOnInit(): void {}
+    ngOnDestroy(): void {}
 }
